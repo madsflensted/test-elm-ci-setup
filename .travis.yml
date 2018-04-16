@@ -33,5 +33,5 @@ install:
   - npm install
 
 script:
-  - sysconfcpus -n 2 npm test
-  - sysconfcpus -n 2 npm approve
+  - sysconfcpus -n 2 npm run test
+  - sysconfcpus -n 2 npm run analyse
