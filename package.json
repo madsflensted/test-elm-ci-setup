@@ -1,0 +1,23 @@
+{
+  "name": "test-elm-ci-setup",
+  "version": "1.0.0",
+  "description": "Testing Elm and Travis for team workflow",
+  "scripts": {
+    "analyse": "elm-analyse",
+    "test": "elm-app test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madsflensted/test-elm-ci-setup.git"
+  },
+  "devDependencies": {
+    "create-elm-app": "^1.10.3",
+    "elm-analyse": "^0.13.3",
+    "elm-format": "^0.7.0-exp"
+  },
+  "keywords": [
+    "elm"
+  ],
+  "author": "Mads Flensted-Urech",
+  "license": "MIT"
+}
