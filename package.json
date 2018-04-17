@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "create-elm-app": "^1.10.3",
-    "elm-analyse": "^0.13.3",
+    "elm-analyse": "^0.14.1",
     "elm-format": "^0.7.0-exp"
   },
   "keywords": [
