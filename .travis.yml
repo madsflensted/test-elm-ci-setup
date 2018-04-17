@@ -33,5 +33,6 @@ install:
   - npm install
 
 script:
+  - sysconfcpus -n 2 npm run elm-package -- install --yes
   - sysconfcpus -n 2 npm run test
   - sysconfcpus -n 2 npm run analyse
