@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Testing Elm and Travis for team workflow",
   "scripts": {
-    "analyse": "elm-analyse",
+    "elm-analyse": "elm-analyse",
+    "elm-packages": "elm-package install --yes",
     "test": "elm-app test"
   },
   "repository": {
