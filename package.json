@@ -6,7 +6,7 @@
     "elm-analyse": "elm-analyse",
     "elm-packages": "elm-package install --yes",
     "test": "elm-app test",
-    "elm-build": "elm-app"build
+    "elm-build": "elm-app build"
   },
   "repository": {
     "type": "git",
